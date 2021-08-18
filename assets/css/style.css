@@ -1,0 +1,312 @@
+.logo{
+    width: 90px;
+    margin: 5px;
+}
+.bg-theme{
+    padding: 0px;
+    background-color:#132f57;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 120px;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+    background-color: #ffb516;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    background-color: #ffb516;
+}
+.brand-logo{
+    width: 50px;
+    display: none;
+}
+.logo-head{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: emoji;
+}
+.ico-icon{
+    color: #fff;
+    margin: 20px;
+    position: absolute;
+    right: 0px;
+}
+.ico-icon .fab{
+    border: 1px solid gray;
+    padding: 9px;
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    color: rgb(196, 30, 121);
+}
+.ico-icon .fab:hover{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(240, 236, 22);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.outer-right{
+    text-align: center;
+    background-color: royalblue;
+   background-image: url(../images/backgroung\ image.jpeg);
+   width: 450px;
+   height: 350px;
+   
+    padding: 70px;
+}
+.outer-right h4{
+    
+    color: salmon;
+}
+.outer-right h5{
+    
+    color: rgb(191, 221, 20);
+}
+
+.d-block{
+    height: 450px;
+}
+
+.mrq{
+    color: red;
+    background-image: url(../images/bg.jfif);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+.mrq2{
+    color: red;
+    background-image: url(../images/s5.jpeg);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+.mrq3{
+    color: red;
+    background-image: url(../images/bg2.jfif);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+.mrq4{
+    color: red;
+    background-image: url(../images/bg4.jfif);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+.mrq5{
+    color: red;
+    background-image: url(../images/bg5.jfif);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+.mrq6{
+    color: red;
+    background-image: url(../images/bg6.jfif);
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px 70px;
+
+}
+
+.mrq b, .mrq2 b, .mrq3 b, .mrq4 b, .mrq5 b, .mrq6 b{
+    color: rgb(31, 8, 163);
+    text-align: center;
+}
+.mrq b, .mrq2 b, .mrq3 b, .mrq4 b, .mrq5 b, .mrq6 b{
+    text-align: center;
+}
+.get-btn{
+    background: none;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    border: 1px solid rgb(82, 7, 7);
+    padding: 3px 4px;
+    font-weight: bold;
+}
+
+.get-btn:hover{
+    background-color:green;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #132f57;
+    text-align: center;
+    color: white;
+   padding: 25px 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+/*sticky Start  */
+
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.sticky + .content{
+    margin-top: 30px;
+}
+
+/* Sticky Footer ends */
+
+/* About us page start */
+
+.heading-about{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-about-style{
+    
+    border-radius: 20px;
+    width: 750px;
+    height: 400px;
+}
+
+
+
+
+/* About(About us) page Ends */
+
+/* About(Mission & vission) page start */
+
+    .text-mission-vission{
+        background-color: gray;
+        padding: 15px;
+        color: white;
+    }
+
+/* About(Mission & vission) page Ends */
+
+/* Principal's Message page Ends */
+
+.principal-msg{
+ text-align: center;
+ margin-top: 15px;
+}
+
+.img-principal-msg{
+    margin-top: 100px;
+   border: 20px rgb(138, 16, 16);
+   border-radius: 20px;
+}
+
+/* Principal's Message page Ends */
+
+/*  Admission processior Starts */
+
+.admission{
+    color: green;
+    text-align: center;
+}
+
+/*  Admission processior Ends */
+
+/*  Facilities Starts */
+
+.heading-facilities{
+    padding: 5px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.facilities{
+    margin-top: 20px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+/*  Facilities end's */
+
+/*  Our Team Start's  */
+
+.img-ourteam{
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 300px;
+}
+
+/*  Our Team End's  */
+
+.contact-icon{
+    padding: 15px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .ico-icon .fab{
+        border: 1px solid gray;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        padding: 3px;
+        font-size: 17px;
+        
+} 
+    .ico-icon .fab:hover{
+        width: 25px;
+    height: 25px;
+    padding: 3px;
+    }
+
+    .col-4 {
+        margin-bottom: 10px;
+
+    }
+
+.logo-head{
+    font-size: 12px;
+    margin-top: 42px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding-left: 13px;
+    margin-right: 0px;
+}
+
+.logo{
+    display: none;
+}
+.brand-logo{
+    display: block;
+}
+
+
+}
