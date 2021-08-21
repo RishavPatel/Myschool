@@ -356,6 +356,14 @@
 .brand-logo{
     display: block;
 }
+.outer-right{
+   margin-top: 5px;
+    width: 320px;
+}
+.addressmap{
+    height: 400px;
+    width: 330px; ;
+}
 
 
 }
